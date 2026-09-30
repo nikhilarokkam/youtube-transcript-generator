@@ -1,0 +1,19 @@
+RENDER DEPLOYMENT SETTINGS
+
+Environment:
+Python
+
+Build Command:
+pip install -r requirements.txt
+
+Start Command:
+gunicorn app:app
+
+Root Directory:
+Leave blank
+
+Environment Variables:
+None required
+
+After deployment:
+Open the Render-generated URL and test with a YouTube video that has captions enabled.
